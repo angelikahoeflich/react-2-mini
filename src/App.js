@@ -56,12 +56,12 @@ class App extends Component {
       <div>
         <div className="headerBar">
           <EditToggle update={this.updateEditStatus}/>
-          <ColorChanger upate={this.updateColor} allowEdit ={allowEdit}/>
+          <ColorChanger upate={this.updateColor} allowEdit={allowEdit}/>
           <SizeChanger update={this.SizeChanger} allowEdit={allowEdit}/>
           <FamilyChanger update={this.updateFamily} allowEdit={allowEdit}/>
         </div>
         <div className="textArea">
-          <TextContainer fontColor={fontColor} fontSize={fontSize} fontFamily={fontFamily}/>
+          <TextContainer fontColor={fontColor} fontSize={fontSize}fontFamily={fontFamily}/>
         </div>
       </div>
     );
